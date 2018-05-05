@@ -1,0 +1,15 @@
+OpenMP N-body Problem:   Examines variations in performance based on static/dynamic and fine/coarse grained parallelism.
+
+Meaning of file names:
+	p2_fg_stat.cpp = Fine grained static
+	p2_fg_dyn.cpp = Fine grained dynamic
+	p2_cg_stat.cpp = Coarse grained static
+	p2_cg_dyn.cpp = Coarse grained dynamic
+
+To compile and execute all 4 programs, enter into command line:    	proj2
+
+Results of 4 separate files are stored in:  
+	p2_fg_stat_results
+	p2_fg_dyn_results
+	p2_cg_stat_results
+	p2_cg_dyn_results
