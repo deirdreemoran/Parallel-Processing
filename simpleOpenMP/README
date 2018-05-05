@@ -1,0 +1,4 @@
+Simple openMP experiment that takes large number arrays and multiples them together 
+in order to test parallel processing execution times.
+
+To compile, enter:   proj1
