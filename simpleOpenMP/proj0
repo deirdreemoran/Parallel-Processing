@@ -1,0 +1,10 @@
+#!/bin/bash
+
+for t in 1 4 
+do
+		echo NUMT = $t >> project0_results
+		/usr/local/common/gcc-7.3.0/bin/g++ -DNUMT=$t project0.cpp -o project0 -O3 -lm -fopenmp
+		./project0 >> project0_results
+	done
+	echo ""
+done
