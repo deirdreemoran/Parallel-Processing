@@ -1,0 +1,15 @@
+#!/bin/bash
+
+for t in 1 2 4 6 8
+do
+	echo NUMTHREADS = $t
+	/usr/local/common/gcc-7.3.0/bin/g++ -DNUMTHREADS=$t p2_fg_dyn.cpp -o p2_fg_dyn -O3 -lm -fopenmp
+	/usr/local/common/gcc-7.3.0/bin/g++ -DNUMTHREADS=$t p2_fg_stat.cpp -o p2_fg_stat -O3 -lm -fopenmp
+	/usr/local/common/gcc-7.3.0/bin/g++ -DNUMTHREADS=$t p2_cg_dyn.cpp -o p2_cg_dyn -O3 -lm -fopenmp
+	/usr/local/common/gcc-7.3.0/bin/g++ -DNUMTHREADS=$t p2_cg_stat.cpp -o p2_cg_stat -O3 -lm -fopenmp
+	./p2_fg_dyn >> p2_fg_dyn_results
+	./p2_fg_stat >> p2_fg_stat_results
+	./p2_cg_dyn >> p2_cg_dyn_results
+	./p2_cg_stat >> p2_cg_stat_results
+done
+echo ""
