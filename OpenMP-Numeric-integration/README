@@ -1,0 +1,5 @@
+Numeric Integration with OpenMP.  Calculates the volume between two Bézier surfaces 
+and tests the parallel processing execution times based on size of set of 
+subdivisions and number of threads used.
+
+To compile, enter:   proj1
