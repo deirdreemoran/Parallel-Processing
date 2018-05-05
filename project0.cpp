@@ -1,10 +1,8 @@
 /******************************************************************************
 *  Author: Deirdre Moran
-*  Program: project0.cpp
 *  Date: 4/5/2018
-*  Description: Simple OpenMP Experiment.   Large arrays of numbers are
-*				multiplied together to test parallel processing execution times.
-*  NOTE:  Code was primarily created by Michael Bailey http://web.engr.oregonstate.edu/~mjb/cs575/Projects/proj00.html
+*  Description:   Simple OpenMP Experiment. Large arrays of numbers are
+*		  multiplied together to test execution times.
 *******************************************************************************/
 #include <omp.h>
 #include <stdio.h>
