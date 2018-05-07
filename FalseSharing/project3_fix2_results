@@ -1,0 +1,15 @@
+NUMTHREADS = 1
+Execution time: 13.728798
+MegaCounts Per Second 291.358364066021920280036
+Execution time: 14.127011
+MegaCounts Per Second 283.145528943441661340330
+NUMTHREADS = 2
+Execution time: 6.880955
+MegaCounts Per Second 581.314653829840608523227
+Execution time: 6.889477
+MegaCounts Per Second 580.595620060142437068862
+NUMTHREADS = 4
+Execution time: 3.440621
+MegaCounts Per Second 1162.580857914726948365569
+Execution time: 3.440369
+MegaCounts Per Second 1162.665897319325267744716

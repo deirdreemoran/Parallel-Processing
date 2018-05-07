@@ -1,0 +1,18 @@
+#!/bin/bash
+
+for t in 1 2 4 
+do
+	echo NUMTHREADS = $t >> project3_fix1_results
+	echo NUMTHREADS = $t >> project3_fix2_results
+	for p in 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16
+	do
+		/usr/local/common/gcc-7.3.0/bin/g++ -DNUMTHREADS=$t -DNUM=$p project3_fix1.cpp -o project3_fix1 -lm -O0 -fopenmp
+ 		./project3_fix1 >> project3_fix1_results
+	done
+	for p in 0 1
+	do
+		/usr/local/common/gcc-7.3.0/bin/g++ -DNUMTHREADS=$t project3_fix2.cpp -o project3_fix2 -lm -O0 -fopenmp
+		./project3_fix2 >> project3_fix2_results
+	done
+done
+echo ""

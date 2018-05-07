@@ -1,0 +1,105 @@
+NUMTHREADS = 1
+Execution time: 15.488998
+MegaCounts Per Second 258.247824316600713245862
+Execution time: 13.917179
+MegaCounts Per Second 287.414571708747587308608
+Execution time: 14.240371
+MegaCounts Per Second 280.891556772854016799101
+Execution time: 13.289320
+MegaCounts Per Second 300.993580916759299270780
+Execution time: 14.361696
+MegaCounts Per Second 278.518629110842653062718
+Execution time: 13.942805
+MegaCounts Per Second 286.886313786247114876460
+Execution time: 14.204324
+MegaCounts Per Second 281.604391851402965585294
+Execution time: 13.399682
+MegaCounts Per Second 298.514545946506871132442
+Execution time: 14.265248
+MegaCounts Per Second 280.401719272923571679712
+Execution time: 14.485087
+MegaCounts Per Second 276.146081897205021959962
+Execution time: 14.750928
+MegaCounts Per Second 271.169370832835511464509
+Execution time: 13.954764
+MegaCounts Per Second 286.640461728519426287676
+Execution time: 14.937247
+MegaCounts Per Second 267.786963533337029730319
+Execution time: 20.773675
+MegaCounts Per Second 192.551394035443337315883
+Execution time: 15.746278
+MegaCounts Per Second 254.028282689999400645320
+Execution time: 13.314396
+MegaCounts Per Second 300.426705557842524285661
+Execution time: 14.147551
+MegaCounts Per Second 282.734440651156376134168
+NUMTHREADS = 2
+Execution time: 9.895524
+MegaCounts Per Second 404.223147159966231356520
+Execution time: 8.003724
+MegaCounts Per Second 499.767339063499434814730
+Execution time: 7.706189
+MegaCounts Per Second 519.063345034710323488980
+Execution time: 6.748099
+MegaCounts Per Second 592.759504535474434305797
+Execution time: 7.131274
+MegaCounts Per Second 560.909573140896213772066
+Execution time: 6.979649
+MegaCounts Per Second 573.094741970389804919250
+Execution time: 7.066736
+MegaCounts Per Second 566.032188253265985622420
+Execution time: 6.618992
+MegaCounts Per Second 604.321654476091111973801
+Execution time: 7.238053
+MegaCounts Per Second 552.634834477990466439223
+Execution time: 7.204171
+MegaCounts Per Second 555.233916645187719041132
+Execution time: 7.464309
+MegaCounts Per Second 535.883520480819242948201
+Execution time: 7.007153
+MegaCounts Per Second 570.845257198259218966996
+Execution time: 7.690267
+MegaCounts Per Second 520.137984497416937301750
+Execution time: 7.066538
+MegaCounts Per Second 566.048055251958544431545
+Execution time: 7.061144
+MegaCounts Per Second 566.480428492774194637605
+Execution time: 6.626049
+MegaCounts Per Second 603.677976164030951622408
+Execution time: 11.323185
+MegaCounts Per Second 353.257486361748817671469
+NUMTHREADS = 4
+Execution time: 11.200023
+MegaCounts Per Second 357.142129466538278848020
+Execution time: 11.172609
+MegaCounts Per Second 358.018421240386146564560
+Execution time: 8.792488
+MegaCounts Per Second 454.933800874401356395538
+Execution time: 9.460430
+MegaCounts Per Second 422.813752646087266384711
+Execution time: 9.700301
+MegaCounts Per Second 412.358341856587117035815
+Execution time: 10.477073
+MegaCounts Per Second 381.786009869320480447641
+Execution time: 10.232963
+MegaCounts Per Second 390.893641501961042195035
+Execution time: 9.046726
+MegaCounts Per Second 442.148883099211957414809
+Execution time: 8.641719
+MegaCounts Per Second 462.870886211592733161524
+Execution time: 7.709366
+MegaCounts Per Second 518.849442162490049668122
+Execution time: 6.237731
+MegaCounts Per Second 641.258851764323026145576
+Execution time: 6.129181
+MegaCounts Per Second 652.615708731667268693855
+Execution time: 5.614241
+MegaCounts Per Second 712.473843173743944134912
+Execution time: 3.548045
+MegaCounts Per Second 1127.381487944828222680371
+Execution time: 3.663977
+MegaCounts Per Second 1091.709799805695865870803
+Execution time: 3.319258
+MegaCounts Per Second 1205.088449944142439562711
+Execution time: 3.553636
+MegaCounts Per Second 1125.607821747601292372565
