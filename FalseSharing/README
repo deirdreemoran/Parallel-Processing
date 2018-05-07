@@ -1,0 +1,16 @@
+In False Sharing, two (or more) cores are writing to variables that live in the same cache line. 
+As soon as each one writes to the cache line, it invalidates the contents of the other, 
+requiring a time-consuming re-load.  For this project, we avoid false-sharing by implementing
+two fixes.  The first fix, project3_fix1.cpp, uses contiguous array padding to ensure that
+each individual block starts and ends on a cache boundary.  The second fix, project3_fix2.cpp, uses
+a temporary private variable (created in each core’s stack) so that very little to no cache line 
+conflicts occur.
+
+To compile bash script, use:  proj3
+
+Code using Fix 1 padding is located here:   project3_fix1.cpp
+Code using Fix 2 private variable is located here:   project3_fix2.cpp
+
+Results using Fix 1 padding are stored in:   project3_fix1_results
+Results using Fix 2 private variable are stored in:   project3_fix2_results
+
