@@ -1,5 +1,5 @@
-# Parallel-Processing
-Parallel Processing Projects 
+# Parallel-Programming
+Parallel Programming Projects 
 
 Simple openMP:  experiment that takes large number arrays and multiples them together 
 in order to test parallel processing execution times.
